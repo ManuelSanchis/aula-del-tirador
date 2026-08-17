@@ -1,12 +1,22 @@
-import { Link } from 'react-router-dom';
+import { type LucideIcon, X } from 'lucide-react';
+import { NavLink } from 'react-router-dom';
 
-export const SidebarNavItem = () => {
+interface SidebarNavItemProps {
+  to?: string;
+  label?: string;
+  icon?: LucideIcon;
+}
+
+export const SidebarNavItem = ({ to = '/', label, icon: Icon = X }: SidebarNavItemProps) => {
   return (
-    <div>
-      <h1>SidebarNavItem</h1>
-      <Link to="/">
-        <button>Inicio</button>
-      </Link>
-    </div>
+    <li>
+      <NavLink to={to} title={label}>
+        <span>
+          <Icon />
+        </span>
+
+        <span>{label}</span>
+      </NavLink>
+    </li>
   );
 };
