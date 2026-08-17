@@ -1,0 +1,222 @@
+[
+    {
+      "id": 1,
+      "question": "¿Cuál es el tiburón más grande del mundo?",
+      "answerId": 3,
+      "options": [
+        {
+          "id": 1,
+          "answer": "Tiburón blanco.",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "answer": "Tiburón tigre.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "answer": "Tiburón ballena.",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "¿Cuál es el principal sentido desarrollado en los tiburones para detectar a sus presas?",
+      "answerId": 2,
+      "options": [
+        {
+          "id": 1,
+          "answer": "Vista.",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "answer": "Olfato.",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "answer": "Gusto.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "¿Cuál de estos tiburones puede sobrevivir tanto en agua dulce como salada?",
+      "answerId": 1,
+      "options": [
+        {
+          "id": 1,
+          "answer": "Tiburón toro.",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "answer": "Tiburón martillo.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "answer": "Tiburón mako.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "¿Cuántas filas de dientes puede tener aproximadamente un tiburón blanco?",
+      "answerId": 3,
+      "options": [
+        {
+          "id": 1,
+          "answer": "Una sola fila.",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "answer": "De 2 a 5 filas.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "answer": "Hasta 7 filas o más.",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "¿Qué órgano permite a los tiburones detectar campos eléctricos?",
+      "answerId": 2,
+      "options": [
+        {
+          "id": 1,
+          "answer": "Branquias.",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "answer": "Ampollas de Lorenzini.",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "answer": "Escamas dérmicas.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "question": "¿Cuál es la dieta principal del tiburón ballena?",
+      "answerId": 1,
+      "options": [
+        {
+          "id": 1,
+          "answer": "Plancton y peces pequeños.",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "answer": "Mamíferos marinos.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "answer": "Algas.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "question": "¿Cuál es una característica distintiva del tiburón martillo?",
+      "answerId": 2,
+      "options": [
+        {
+          "id": 1,
+          "answer": "Posee rayas negras en su cuerpo.",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "answer": "Su cabeza tiene forma de martillo.",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "answer": "No posee dientes.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "question": "¿Qué tiburón es conocido por su velocidad y capacidad para saltar fuera del agua?",
+      "answerId": 3,
+      "options": [
+        {
+          "id": 1,
+          "answer": "Tiburón nodriza.",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "answer": "Tiburón ballena.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "answer": "Tiburón mako.",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "question": "¿Cuánto tiempo existe aproximadamente el tiburón en la Tierra?",
+      "answerId": 1,
+      "options": [
+        {
+          "id": 1,
+          "answer": "Más de 400 millones de años.",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "answer": "Cerca de 50 millones de años.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "answer": "Aproximadamente 5 millones de años.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "question": "¿Cuál es el tiburón considerado más peligroso para los humanos por el número de ataques registrados?",
+      "answerId": 1,
+      "options": [
+        {
+          "id": 1,
+          "answer": "Tiburón blanco.",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "answer": "Tiburón peregrino.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "answer": "Tiburón gato.",
+          "isCorrect": false
+        }
+      ]
+    }
+  ]

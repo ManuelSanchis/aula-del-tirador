@@ -1,0 +1,222 @@
+[
+    {
+      "id": 1,
+      "question": "¿Cuál es la especie de ballena más grande del mundo?",
+      "answerId": 2,
+      "options": [
+        {
+          "id": 1,
+          "answer": "Ballena gris.",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "answer": "Ballena azul.",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "answer": "Ballena jorobada.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "¿Cuál es la dieta principal de la mayoría de las ballenas barbadas?",
+      "answerId": 3,
+      "options": [
+        {
+          "id": 1,
+          "answer": "Peces grandes.",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "answer": "Algas marinas.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "answer": "Krill y pequeños peces.",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "¿Qué tipo de ballena es conocida por sus cantos elaborados durante la época de reproducción?",
+      "answerId": 1,
+      "options": [
+        {
+          "id": 1,
+          "answer": "Ballena jorobada.",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "answer": "Orca.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "answer": "Ballena piloto.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "¿Cuál de estas ballenas es conocida también como 'orca'?",
+      "answerId": 2,
+      "options": [
+        {
+          "id": 1,
+          "answer": "Ballena franca.",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "answer": "Ballena asesina.",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "answer": "Ballena minke.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "¿Qué órgano usan las ballenas para respirar?",
+      "answerId": 1,
+      "options": [
+        {
+          "id": 1,
+          "answer": "Pulmones.",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "answer": "Branquias.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "answer": "Piel.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "question": "¿Cuál de estas ballenas tiene dientes en lugar de barbas?",
+      "answerId": 3,
+      "options": [
+        {
+          "id": 1,
+          "answer": "Ballena azul.",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "answer": "Ballena franca austral.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "answer": "Cachalote.",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "question": "¿Cuál es aproximadamente la esperanza de vida promedio de una ballena azul?",
+      "answerId": 2,
+      "options": [
+        {
+          "id": 1,
+          "answer": "10-20 años.",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "answer": "70-90 años.",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "answer": "150-200 años.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "question": "¿Cuál de estos comportamientos es típico de las ballenas jorobadas?",
+      "answerId": 3,
+      "options": [
+        {
+          "id": 1,
+          "answer": "Permanecer en el fondo marino durante días.",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "answer": "Migrar sobre tierra firme.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "answer": "Realizar saltos fuera del agua.",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "question": "¿Qué sustancia produce el cachalote, muy valorada históricamente por la industria perfumera?",
+      "answerId": 1,
+      "options": [
+        {
+          "id": 1,
+          "answer": "Ámbar gris.",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "answer": "Aceite de pescado.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "answer": "Cera marina.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "question": "¿Cuál es la razón principal por la que las ballenas emergen regularmente a la superficie?",
+      "answerId": 3,
+      "options": [
+        {
+          "id": 1,
+          "answer": "Para observar el entorno.",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "answer": "Para alimentarse.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "answer": "Para respirar aire.",
+          "isCorrect": true
+        }
+      ]
+    }
+  ]

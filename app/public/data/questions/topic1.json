@@ -1,0 +1,222 @@
+[
+    {
+      "id": 1,
+      "question": "¿Cuál es la esperanza de vida promedio de un gato doméstico?",
+      "answerId": 2,
+      "options": [
+        {
+          "id": 1,
+          "answer": "5-8 años.",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "answer": "12-16 años.",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "answer": "20-25 años.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "¿Cuál es la raza de gato más grande?",
+      "answerId": 1,
+      "options": [
+        {
+          "id": 1,
+          "answer": "Maine Coon.",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "answer": "Persa.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "answer": "Siamés.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "¿Qué sentido tienen más desarrollado los gatos?",
+      "answerId": 3,
+      "options": [
+        {
+          "id": 1,
+          "answer": "El gusto.",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "answer": "La vista.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "answer": "El oído.",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "¿Cuál es la dieta natural principal de un gato?",
+      "answerId": 1,
+      "options": [
+        {
+          "id": 1,
+          "answer": "Carnívora.",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "answer": "Omnívora.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "answer": "Herbívora.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "¿Cuántas horas al día suele dormir un gato adulto?",
+      "answerId": 2,
+      "options": [
+        {
+          "id": 1,
+          "answer": "2-4 horas.",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "answer": "12-16 horas.",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "answer": "20-22 horas.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "question": "¿Por qué los gatos suelen ronronear?",
+      "answerId": 3,
+      "options": [
+        {
+          "id": 1,
+          "answer": "Solo cuando tienen hambre.",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "answer": "Únicamente cuando están felices.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "answer": "Por comodidad, estrés o alivio del dolor.",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "question": "¿Qué es la hierba gatera (catnip)?",
+      "answerId": 1,
+      "options": [
+        {
+          "id": 1,
+          "answer": "Una planta que atrae a los gatos y los estimula.",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "answer": "Una hierba tóxica para gatos.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "answer": "Un suplemento alimenticio obligatorio para gatos.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "question": "¿Qué caracteriza principalmente a un gato siamés?",
+      "answerId": 2,
+      "options": [
+        {
+          "id": 1,
+          "answer": "Pelaje largo y esponjoso.",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "answer": "Puntos oscuros en cara, orejas, patas y cola.",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "answer": "Ausencia de cola.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "question": "¿Cuál es la función principal de los bigotes en los gatos?",
+      "answerId": 1,
+      "options": [
+        {
+          "id": 1,
+          "answer": "Actuar como sensores táctiles para detectar movimientos y distancias.",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "answer": "Únicamente decorativos.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "answer": "Ayudan a mantener el equilibrio mientras corren.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "question": "¿Cuál es el periodo promedio de gestación en las gatas?",
+      "answerId": 2,
+      "options": [
+        {
+          "id": 1,
+          "answer": "30 días.",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "answer": "58-67 días.",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "answer": "80-90 días.",
+          "isCorrect": false
+        }
+      ]
+    }
+  ]
