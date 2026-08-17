@@ -1,0 +1,222 @@
+[
+    {
+      "id": 1,
+      "question": "¿Cuál es la raza de perro más pequeña del mundo?",
+      "answerId": 3,
+      "options": [
+        {
+          "id": 1,
+          "answer": "Yorkshire Terrier.",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "answer": "Pomerania.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "answer": "Chihuahua.",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "¿Cuál es el sentido más desarrollado en los perros?",
+      "answerId": 2,
+      "options": [
+        {
+          "id": 1,
+          "answer": "La vista.",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "answer": "El olfato.",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "answer": "El gusto.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "¿Qué raza de perro es conocida por su gran inteligencia y habilidad para el pastoreo?",
+      "answerId": 1,
+      "options": [
+        {
+          "id": 1,
+          "answer": "Border Collie.",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "answer": "Bóxer.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "answer": "Bulldog francés.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "¿Cuál es el promedio de vida de un perro de raza grande?",
+      "answerId": 2,
+      "options": [
+        {
+          "id": 1,
+          "answer": "15-20 años.",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "answer": "8-12 años.",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "answer": "3-6 años.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "¿Por qué los perros jadean frecuentemente?",
+      "answerId": 3,
+      "options": [
+        {
+          "id": 1,
+          "answer": "Porque tienen hambre.",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "answer": "Para demostrar agresividad.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "answer": "Para regular su temperatura corporal.",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "question": "¿Qué raza de perro se caracteriza por tener la lengua azul o negra?",
+      "answerId": 1,
+      "options": [
+        {
+          "id": 1,
+          "answer": "Chow Chow.",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "answer": "Golden Retriever.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "answer": "Beagle.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "question": "¿Cuál es la función original de los perros Dachshund (perros salchicha)?",
+      "answerId": 2,
+      "options": [
+        {
+          "id": 1,
+          "answer": "Perro guardián.",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "answer": "Caza de tejones.",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "answer": "Pastoreo de ovejas.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "question": "¿En qué país se originó la raza Akita Inu?",
+      "answerId": 3,
+      "options": [
+        {
+          "id": 1,
+          "answer": "China.",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "answer": "Corea.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "answer": "Japón.",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "question": "¿Qué alimento es altamente tóxico para los perros?",
+      "answerId": 1,
+      "options": [
+        {
+          "id": 1,
+          "answer": "Chocolate.",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "answer": "Arroz.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "answer": "Zanahorias.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "question": "¿Cuántos dientes permanentes tiene normalmente un perro adulto?",
+      "answerId": 3,
+      "options": [
+        {
+          "id": 1,
+          "answer": "24 dientes.",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "answer": "32 dientes.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "answer": "42 dientes.",
+          "isCorrect": true
+        }
+      ]
+    }
+  ]

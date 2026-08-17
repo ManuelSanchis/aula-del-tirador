@@ -1,0 +1,222 @@
+[
+    {
+      "id": 1,
+      "question": "¿Cuál es el ave más pequeña del mundo?",
+      "answerId": 1,
+      "options": [
+        {
+          "id": 1,
+          "answer": "El colibrí abeja.",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "answer": "El canario.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "answer": "El gorrión común.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "¿Qué ave es conocida por ser capaz de imitar sonidos humanos?",
+      "answerId": 2,
+      "options": [
+        {
+          "id": 1,
+          "answer": "Águila real.",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "answer": "El loro gris africano.",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "answer": "El cisne blanco.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "¿Qué característica distingue principalmente a las aves rapaces?",
+      "answerId": 3,
+      "options": [
+        {
+          "id": 1,
+          "answer": "Plumas coloridas.",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "answer": "Cantan melodiosamente.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "answer": "Garras afiladas y pico curvado para cazar.",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "¿Cuál de estas aves no puede volar?",
+      "answerId": 1,
+      "options": [
+        {
+          "id": 1,
+          "answer": "El avestruz.",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "answer": "El albatros.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "answer": "La golondrina.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "¿Qué función cumplen principalmente las plumas en las aves?",
+      "answerId": 2,
+      "options": [
+        {
+          "id": 1,
+          "answer": "Capturar insectos.",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "answer": "Aislamiento térmico y vuelo.",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "answer": "Excavar nidos.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "question": "¿Cuál es la principal dieta del águila calva?",
+      "answerId": 3,
+      "options": [
+        {
+          "id": 1,
+          "answer": "Semillas y frutos.",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "answer": "Flores y néctar.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "answer": "Peces.",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "question": "¿Cuál de estas aves migra grandes distancias cada año?",
+      "answerId": 2,
+      "options": [
+        {
+          "id": 1,
+          "answer": "El búho real.",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "answer": "La golondrina común.",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "answer": "El pavo real.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "question": "¿Qué ave es símbolo de la paz?",
+      "answerId": 1,
+      "options": [
+        {
+          "id": 1,
+          "answer": "La paloma blanca.",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "answer": "El cuervo.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "answer": "El águila.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "question": "¿Cuánto tiempo suele durar el período de incubación de los huevos de gallina?",
+      "answerId": 2,
+      "options": [
+        {
+          "id": 1,
+          "answer": "10 días.",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "answer": "21 días.",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "answer": "45 días.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "question": "¿Qué ave puede girar su cabeza hasta aproximadamente 270 grados?",
+      "answerId": 3,
+      "options": [
+        {
+          "id": 1,
+          "answer": "El cóndor.",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "answer": "El colibrí.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "answer": "El búho.",
+          "isCorrect": true
+        }
+      ]
+    }
+  ]

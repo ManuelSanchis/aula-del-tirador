@@ -1,0 +1,223 @@
+[
+    {
+      "id": 1,
+      "question": "¿Qué lagarto es conocido por su capacidad de correr sobre el agua?",
+      "answerId": 2,
+      "options": [
+        {
+          "id": 1,
+          "answer": "Camaleón.",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "answer": "Basilisco.",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "answer": "Iguana.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "¿Qué lagarto puede cambiar de color según su entorno o estado emocional?",
+      "answerId": 1,
+      "options": [
+        {
+          "id": 1,
+          "answer": "Camaleón.",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "answer": "Dragón de Komodo.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "answer": "Gecko.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "¿Cuál es el lagarto más grande del mundo?",
+      "answerId": 3,
+      "options": [
+        {
+          "id": 1,
+          "answer": "Iguana verde.",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "answer": "Teju.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "answer": "Dragón de Komodo.",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "¿Qué parte del cuerpo puede perder un lagarto para escapar de un depredador?",
+      "answerId": 2,
+      "options": [
+        {
+          "id": 1,
+          "answer": "Una pata.",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "answer": "La cola.",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "answer": "Un ojo.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "¿Cómo se adhieren los geckos a superficies verticales?",
+      "answerId": 3,
+      "options": [
+        {
+          "id": 1,
+          "answer": "Usan ventosas en sus dedos.",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "answer": "Segregan un líquido pegajoso.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "answer": "Tienen almohadillas con estructuras microscópicas que generan fuerza de Van der Waals.",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "question": "¿Qué comen principalmente las iguanas verdes?",
+      "answerId": 2,
+      "options": [
+        {
+          "id": 1,
+          "answer": "Insectos y pequeños mamíferos.",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "answer": "Hojas, flores y frutas.",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "answer": "Peces y crustáceos.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "question": "¿Qué lagarto es venenoso y se encuentra en América del Norte?",
+      "answerId": 1,
+      "options": [
+        {
+          "id": 1,
+          "answer": "Monstruo de Gila.",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "answer": "Dragón barbudo.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "answer": "Iguana rinoceronte.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "question": "¿Qué tipo de lagarto puede planear entre los árboles usando pliegues de piel?",
+      "answerId": 3,
+      "options": [
+        {
+          "id": 1,
+          "answer": "Gecko volador.",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "answer": "Camaleón pantera.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "answer": "Dragón volador (Draco).",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "question": "¿Dónde se encuentra principalmente el dragón de Komodo en estado salvaje?",
+      "answerId": 2,
+      "options": [
+        {
+          "id": 1,
+          "answer": "Australia.",
+          "isCorrect": false
+        },
+        {
+          "id": 2,
+          "answer": "Indonesia.",
+          "isCorrect": true
+        },
+        {
+          "id": 3,
+          "answer": "India.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "question": "¿Cómo regulan su temperatura corporal los lagartos?",
+      "answerId": 1,
+      "options": [
+        {
+          "id": 1,
+          "answer": "Mediante el entorno, ya que son ectotermos.",
+          "isCorrect": true
+        },
+        {
+          "id": 2,
+          "answer": "Sudando por la piel.",
+          "isCorrect": false
+        },
+        {
+          "id": 3,
+          "answer": "Con glándulas internas como los mamíferos.",
+          "isCorrect": false
+        }
+      ]
+    }
+  ]
+  
