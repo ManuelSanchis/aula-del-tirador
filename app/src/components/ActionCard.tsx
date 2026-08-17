@@ -1,22 +1,22 @@
 import type { LucideIcon } from 'lucide-react';
-import { ArrowRight, X } from 'lucide-react';
+import { ArrowRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 interface ActionCardProps {
-  icon?: LucideIcon;
-  title?: string;
+  icon: LucideIcon;
+  title: string;
   description?: string;
   details?: string[];
-  to?: string;
-  buttonText?: string;
+  to: string;
+  buttonText: string;
 }
 
 export const ActionCard = ({
-  icon: Icon = X,
+  icon: Icon,
   title,
   description,
   details,
-  to = '/',
+  to,
   buttonText,
 }: ActionCardProps) => {
   return (
