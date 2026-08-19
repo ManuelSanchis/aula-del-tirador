@@ -1,16 +1,20 @@
 import { ActionCard } from '@/components/ActionCard';
 import { TOPIC_CARDS } from '@/config/topicCards.config';
 
+import styles from './TopicsPage.module.css';
+
 export const TopicsPage = () => {
   return (
-    <div>
-      <header>
-        <h1>Practicar por temas</h1>
+    <div className={styles.page}>
+      <header className={styles.header}>
+        <h1 className={styles.title}>Practicar por temas</h1>
 
-        <p>Elige un tema y practica sus preguntas sin límite de tiempo.</p>
+        <p className={styles.description}>
+          Elige un tema y practica sus preguntas sin límite de tiempo.
+        </p>
       </header>
 
-      <div>
+      <div className={styles.cards}>
         {TOPIC_CARDS.map(({ icon, title, details, to, buttonText }) => (
           <ActionCard
             key={to}
@@ -19,6 +23,7 @@ export const TopicsPage = () => {
             details={details}
             to={to}
             buttonText={buttonText}
+            variant="compact"
           />
         ))}
       </div>
