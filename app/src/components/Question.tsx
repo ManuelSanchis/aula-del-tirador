@@ -1,6 +1,9 @@
+import clsx from 'clsx';
 import { Check, X } from 'lucide-react';
 
 import type { QuestionModel } from '@/models/question.model';
+
+import styles from './Question.module.css';
 
 interface QuestionProps {
   questionNumber?: number;
@@ -20,22 +23,31 @@ export const Question = ({
   onSelectAnswer,
 }: QuestionProps) => {
   return (
-    <div>
-      <div>
-        {questionNumber != null && <span>{questionNumber}</span>}
+    <div className={styles.question}>
+      <div className={styles.header}>
+        {questionNumber != null && <span className={styles.number}>{questionNumber}</span>}
 
-        <p>{question.question}</p>
+        <p className={styles.title}>{question.question}</p>
       </div>
 
-      <div>
+      <div className={styles.options}>
         {question.options.map((option) => {
           const isSelected = selectedAnswer === option.id;
           const isCorrect = showCorrection && option.isCorrect;
           const isIncorrect = showCorrection && isSelected && !option.isCorrect;
 
           return (
-            <label key={option.id}>
+            <label
+              key={option.id}
+              className={clsx(styles.option, {
+                [styles.selected]: isSelected && !showCorrection,
+                [styles.correct]: isCorrect,
+                [styles.incorrect]: isIncorrect,
+                [styles.disabled]: showCorrection,
+              })}
+            >
               <input
+                className={styles.input}
                 type="radio"
                 name={inputName}
                 value={option.id}
@@ -44,13 +56,13 @@ export const Question = ({
                 onChange={() => !showCorrection && onSelectAnswer?.(option.id)}
               />
 
-              <span />
+              <span className={styles.customRadio} />
 
-              <span>{option.answer}</span>
+              <span className={styles.answer}>{option.answer}</span>
 
-              {isCorrect && <Check />}
+              {isCorrect && <Check className={styles.statusIcon} />}
 
-              {isIncorrect && <X />}
+              {isIncorrect && <X className={styles.statusIcon} />}
             </label>
           );
         })}
