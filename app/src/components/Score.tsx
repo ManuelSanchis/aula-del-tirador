@@ -1,4 +1,7 @@
+import clsx from 'clsx';
 import { Award, Frown, Trophy } from 'lucide-react';
+
+import styles from './Score.module.css';
 
 interface ScoreProps {
   passingScore?: number;
@@ -16,21 +19,25 @@ export const Score = ({ passingScore, score, total }: ScoreProps) => {
   const Icon = !showExamStatus ? Award : hasPassed ? Trophy : Frown;
 
   return (
-    <div>
-      <div>
-        <Icon />
+    <div
+      className={clsx(styles.score, showExamStatus && (hasPassed ? styles.passed : styles.failed))}
+    >
+      <div className={styles.iconContainer}>
+        <Icon className={styles.icon} />
       </div>
 
-      <div>
-        <p>Resultado</p>
+      <div className={styles.content}>
+        <p className={styles.label}>Resultado</p>
 
-        {showExamStatus && <p>{hasPassed ? '¡Has aprobado!' : '¡Has suspendido!'}</p>}
+        {showExamStatus && (
+          <p className={styles.status}>{hasPassed ? '¡Has aprobado!' : '¡Has suspendido!'}</p>
+        )}
 
-        <p>
+        <p className={styles.value}>
           {score} de {total} respuestas correctas
         </p>
 
-        <p>{percentage}% de aciertos</p>
+        <p className={styles.percentage}>{percentage}% de aciertos</p>
       </div>
     </div>
   );

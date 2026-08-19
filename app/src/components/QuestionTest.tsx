@@ -7,6 +7,8 @@ import { Timer } from '@/components/Timer';
 import type { QuestionModel } from '@/models/question.model';
 import { calculateScore } from '@/utils/calculateScore';
 
+import styles from './QuestionTest.module.css';
+
 interface QuestionTestProps {
   isFinished: boolean;
   questions: QuestionModel[];
@@ -51,12 +53,12 @@ export const QuestionTest = ({
   const answeredQuestions = Object.keys(selectedAnswers).length;
 
   return (
-    <div>
-      <header>
-        <div>
-          <p>Progreso</p>
+    <div className={styles.test}>
+      <header className={styles.header}>
+        <div className={styles.progress}>
+          <p className={styles.progressLabel}>Progreso</p>
 
-          <p>
+          <p className={styles.progressValue}>
             {answeredQuestions} de {questions.length} respondidas
           </p>
         </div>
@@ -66,7 +68,7 @@ export const QuestionTest = ({
         )}
       </header>
 
-      <div>
+      <div className={styles.questions}>
         {questions.map((question, index) => (
           <Question
             key={index}
@@ -90,14 +92,14 @@ export const QuestionTest = ({
         </div>
       )}
 
-      <div>
+      <div className={styles.actions}>
         {!isFinished ? (
-          <button type="button" onClick={onFinish}>
+          <button className={styles.finishButton} type="button" onClick={onFinish}>
             {finishButtonText}
           </button>
         ) : (
-          <button type="button" onClick={onRestart}>
-            <RotateCw />
+          <button className={styles.restartButton} type="button" onClick={onRestart}>
+            <RotateCw className={styles.buttonIcon} />
             <span>{restartButtonText}</span>
           </button>
         )}

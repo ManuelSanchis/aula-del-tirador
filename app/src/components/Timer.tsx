@@ -1,6 +1,8 @@
 import { Clock3 } from 'lucide-react';
 import { useEffect, useRef, useState } from 'react';
 
+import styles from './Timer.module.css';
+
 interface TimerProps {
   durationSeconds: number;
   running?: boolean;
@@ -41,13 +43,13 @@ export const Timer = ({ durationSeconds, running = true, onTimeUp }: TimerProps)
   };
 
   return (
-    <div>
-      <Clock3 />
+    <div className={styles.timer}>
+      <Clock3 className={styles.icon} />
 
       <div>
-        <p>Tiempo restante</p>
+        <p className={styles.label}>Tiempo restante</p>
 
-        <p>{formatTime(timeLeft)}</p>
+        <p className={styles.time}>{formatTime(timeLeft)}</p>
       </div>
     </div>
   );
