@@ -1,7 +1,10 @@
+import clsx from 'clsx';
 import { PanelLeftClose, PanelLeftOpen, Target } from 'lucide-react';
 
 import { SidebarNavItem } from '@/components/SidebarNavItem';
 import { SIDEBAR_NAV_ITEM } from '@/config/sidebarNavItem.config';
+
+import styles from './Sidebar.module.css';
 
 interface SidebarProps {
   isCollapsed: boolean;
@@ -14,29 +17,40 @@ export const Sidebar = ({ isCollapsed, onToggle }: SidebarProps) => {
   const toggleButtonLabel = isCollapsed ? 'Expandir menú lateral' : 'Colapsar menú lateral';
 
   return (
-    <aside>
-      <header>
-        <Target />
+    <aside
+      className={clsx(styles.sidebar, {
+        [styles.collapsed]: isCollapsed,
+      })}
+    >
+      <header className={styles.header}>
+        <Target className={styles.logo} />
 
-        <div>
-          <p>Aula del Tirador</p>
+        <div className={styles.brand}>
+          <p className={styles.title}>Aula del Tirador</p>
 
-          <p>Obten tu licencia de armas</p>
+          <p className={styles.subtitle}>Obten tu licencia de armas</p>
         </div>
       </header>
 
-      <div>
-        <button type="button" onClick={onToggle} title={toggleButtonLabel}>
-          <span>
-            <ToggleIcon />
+      <div className={styles.toggleContainer}>
+        <button
+          type="button"
+          className={styles.toggleButton}
+          onClick={onToggle}
+          title={toggleButtonLabel}
+        >
+          <span className={styles.toggleIconContainer}>
+            <ToggleIcon className={styles.toggleIcon} />
           </span>
 
-          <span>{isCollapsed ? 'Mostrar menú' : 'Ocultar menú'}</span>
+          <span className={styles.toggleLabel}>
+            {isCollapsed ? 'Mostrar menú' : 'Ocultar menú'}
+          </span>
         </button>
       </div>
 
-      <nav>
-        <ul>
+      <nav className={styles.nav}>
+        <ul className={styles.list}>
           {SIDEBAR_NAV_ITEM.map((item) => (
             <SidebarNavItem
               key={item.to}
