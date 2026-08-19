@@ -1,7 +1,68 @@
+import { LoaderCircle } from 'lucide-react';
+import { useEffect, useState } from 'react';
+import { useParams } from 'react-router-dom';
+
+import { QuestionTest } from '@/components/QuestionTest';
+import type { QuestionModel } from '@/models/question.model';
+import { fetchQuestionsFromTopic } from '@/services/question.service';
+
 export const TopicPracticePage = () => {
+  const { topicId } = useParams();
+
+  const [questions, setQuestions] = useState<QuestionModel[]>([]);
+  const [finished, setFinished] = useState(false);
+  const [topicAttemptKey, setTopicAttemptKey] = useState(0);
+
+  useEffect(() => {
+    if (!topicId) return;
+
+    fetchQuestionsFromTopic(Number(topicId)).then(setQuestions);
+  }, [topicId]);
+
+  useEffect(() => {
+    if (topicAttemptKey === 0) return;
+
+    window.scrollTo({
+      top: 0,
+      behavior: 'auto',
+    });
+  }, [topicAttemptKey]);
+
+  const handleRestart = () => {
+    setFinished(false);
+    setTopicAttemptKey((currentKey) => currentKey + 1);
+  };
+
+  const handleFinish = () => {
+    setFinished(true);
+  };
+
+  if (questions.length === 0) {
+    return (
+      <div>
+        <LoaderCircle />
+        <p>Cargando preguntas...</p>
+      </div>
+    );
+  }
+
   return (
     <div>
-      <h1>TopicPracticePage</h1>
+      <header>
+        <h1>Practicar el tema {topicId}</h1>
+
+        <p>Responde a las preguntas y revisa tus respuestas al finalizar.</p>
+      </header>
+
+      <QuestionTest
+        key={topicAttemptKey}
+        isFinished={finished}
+        questions={questions}
+        onFinish={handleFinish}
+        finishButtonText="Finalizar test"
+        onRestart={handleRestart}
+        restartButtonText="Reiniciar test"
+      />
     </div>
   );
 };
