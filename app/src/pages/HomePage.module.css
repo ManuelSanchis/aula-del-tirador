@@ -1,0 +1,53 @@
+.page {
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+  max-width: var(--content-max-width);
+  margin-inline: auto;
+  gap: var(--spacing-xl);
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+
+  gap: var(--spacing-xs);
+}
+
+.title {
+  margin: 0;
+
+  font-size: var(--font-size-4xl);
+  font-weight: 700;
+  line-height: 1.15;
+}
+
+.description {
+  margin: 0;
+
+  font-size: var(--font-size-base);
+
+  color: var(--color-text-muted);
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+
+  gap: var(--spacing-lg);
+}
+
+@media (width <= 768px) {
+  .page {
+    gap: var(--spacing-lg);
+  }
+
+  .title {
+    font-size: var(--font-size-3xl);
+  }
+
+  .cards {
+    grid-template-columns: 1fr;
+  }
+}
