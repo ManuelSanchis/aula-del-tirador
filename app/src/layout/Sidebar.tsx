@@ -1,9 +1,18 @@
-import { Target } from 'lucide-react';
+import { PanelLeftClose, PanelLeftOpen, Target } from 'lucide-react';
 
 import { SidebarNavItem } from '@/components/SidebarNavItem';
 import { SIDEBAR_NAV_ITEM } from '@/config/sidebarNavItem.config';
 
-export const Sidebar = () => {
+interface SidebarProps {
+  isCollapsed: boolean;
+  onToggle: () => void;
+}
+
+export const Sidebar = ({ isCollapsed, onToggle }: SidebarProps) => {
+  const ToggleIcon = isCollapsed ? PanelLeftOpen : PanelLeftClose;
+
+  const toggleButtonLabel = isCollapsed ? 'Expandir menú lateral' : 'Colapsar menú lateral';
+
   return (
     <aside>
       <header>
@@ -16,10 +25,26 @@ export const Sidebar = () => {
         </div>
       </header>
 
+      <div>
+        <button type="button" onClick={onToggle} title={toggleButtonLabel}>
+          <span>
+            <ToggleIcon />
+          </span>
+
+          <span>{isCollapsed ? 'Mostrar menú' : 'Ocultar menú'}</span>
+        </button>
+      </div>
+
       <nav>
         <ul>
           {SIDEBAR_NAV_ITEM.map((item) => (
-            <SidebarNavItem key={item.to} to={item.to} label={item.label} icon={item.icon} />
+            <SidebarNavItem
+              key={item.to}
+              to={item.to}
+              isCollapsed={isCollapsed}
+              label={item.label}
+              icon={item.icon}
+            />
           ))}
         </ul>
       </nav>

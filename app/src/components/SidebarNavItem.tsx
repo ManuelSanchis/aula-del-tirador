@@ -3,14 +3,15 @@ import { NavLink } from 'react-router-dom';
 
 interface SidebarNavItemProps {
   to: string;
+  isCollapsed: boolean;
   label: string;
   icon: LucideIcon;
 }
 
-export const SidebarNavItem = ({ to, label, icon: Icon }: SidebarNavItemProps) => {
+export const SidebarNavItem = ({ to, isCollapsed, label, icon: Icon }: SidebarNavItemProps) => {
   return (
     <li>
-      <NavLink to={to} title={label}>
+      <NavLink to={to} title={isCollapsed ? label : undefined}>
         <span>
           <Icon />
         </span>
