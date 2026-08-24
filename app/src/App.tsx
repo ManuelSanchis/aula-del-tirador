@@ -1,11 +1,11 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 import { MainLayout } from '@/layout/MainLayout/MainLayout';
-import { ExamPracticePage } from '@/pages/ExamPracticePage';
-import { HomePage } from '@/pages/HomePage';
-import { TopicsPage } from '@/pages/TopicsPage';
+import { ExamPracticePage } from '@/pages/ExamPracticePage/ExamPracticePage';
+import { HomePage } from '@/pages/HomePage/HomePage';
+import { TopicsPage } from '@/pages/TopicsPage/TopicsPage';
 
-import { TopicPracticePage } from './pages/TopicPracticePage';
+import { TopicPracticePage } from './pages/TopicPracticePage/TopicPracticePage';
 
 function App() {
   return (
