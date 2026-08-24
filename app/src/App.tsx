@@ -1,6 +1,6 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
-import { MainLayout } from '@/layout/MainLayout';
+import { MainLayout } from '@/layout/MainLayout/MainLayout';
 import { ExamPracticePage } from '@/pages/ExamPracticePage';
 import { HomePage } from '@/pages/HomePage';
 import { TopicsPage } from '@/pages/TopicsPage';
