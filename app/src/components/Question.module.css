@@ -122,14 +122,14 @@
 
 .selected {
   background-color: var(--color-primary-soft);
-  border-color: var(--color-primary);
+  border-color: var(--color-primary-border);
 }
 
 .correct {
-  color: var(--green-800);
+  color: var(--color-primary);
 
-  background-color: var(--green-50);
-  border-color: var(--color-success);
+  background-color: var(--color-success-soft);
+  border-color: var(--color-success-border);
 }
 
 .correct .statusIcon {
@@ -139,8 +139,8 @@
 .incorrect {
   color: var(--color-error);
 
-  background-color: var(--red-100);
-  border-color: var(--color-error);
+  background-color: var(--color-error-soft);
+  border-color: var(--color-error-border);
 }
 
 .incorrect .statusIcon {
