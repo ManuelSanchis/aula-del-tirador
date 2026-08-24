@@ -1,223 +1,1410 @@
 [
-    {
-      "id": 1,
-      "question": "¿Qué lagarto es conocido por su capacidad de correr sobre el agua?",
-      "answerId": 2,
-      "options": [
-        {
-          "id": 1,
-          "answer": "Camaleón.",
-          "isCorrect": false
-        },
-        {
-          "id": 2,
-          "answer": "Basilisco.",
-          "isCorrect": true
-        },
-        {
-          "id": 3,
-          "answer": "Iguana.",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
-      "id": 2,
-      "question": "¿Qué lagarto puede cambiar de color según su entorno o estado emocional?",
-      "answerId": 1,
-      "options": [
-        {
-          "id": 1,
-          "answer": "Camaleón.",
-          "isCorrect": true
-        },
-        {
-          "id": 2,
-          "answer": "Dragón de Komodo.",
-          "isCorrect": false
-        },
-        {
-          "id": 3,
-          "answer": "Gecko.",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
-      "id": 3,
-      "question": "¿Cuál es el lagarto más grande del mundo?",
-      "answerId": 3,
-      "options": [
-        {
-          "id": 1,
-          "answer": "Iguana verde.",
-          "isCorrect": false
-        },
-        {
-          "id": 2,
-          "answer": "Teju.",
-          "isCorrect": false
-        },
-        {
-          "id": 3,
-          "answer": "Dragón de Komodo.",
-          "isCorrect": true
-        }
-      ]
-    },
-    {
-      "id": 4,
-      "question": "¿Qué parte del cuerpo puede perder un lagarto para escapar de un depredador?",
-      "answerId": 2,
-      "options": [
-        {
-          "id": 1,
-          "answer": "Una pata.",
-          "isCorrect": false
-        },
-        {
-          "id": 2,
-          "answer": "La cola.",
-          "isCorrect": true
-        },
-        {
-          "id": 3,
-          "answer": "Un ojo.",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
-      "id": 5,
-      "question": "¿Cómo se adhieren los geckos a superficies verticales?",
-      "answerId": 3,
-      "options": [
-        {
-          "id": 1,
-          "answer": "Usan ventosas en sus dedos.",
-          "isCorrect": false
-        },
-        {
-          "id": 2,
-          "answer": "Segregan un líquido pegajoso.",
-          "isCorrect": false
-        },
-        {
-          "id": 3,
-          "answer": "Tienen almohadillas con estructuras microscópicas que generan fuerza de Van der Waals.",
-          "isCorrect": true
-        }
-      ]
-    },
-    {
-      "id": 6,
-      "question": "¿Qué comen principalmente las iguanas verdes?",
-      "answerId": 2,
-      "options": [
-        {
-          "id": 1,
-          "answer": "Insectos y pequeños mamíferos.",
-          "isCorrect": false
-        },
-        {
-          "id": 2,
-          "answer": "Hojas, flores y frutas.",
-          "isCorrect": true
-        },
-        {
-          "id": 3,
-          "answer": "Peces y crustáceos.",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
-      "id": 7,
-      "question": "¿Qué lagarto es venenoso y se encuentra en América del Norte?",
-      "answerId": 1,
-      "options": [
-        {
-          "id": 1,
-          "answer": "Monstruo de Gila.",
-          "isCorrect": true
-        },
-        {
-          "id": 2,
-          "answer": "Dragón barbudo.",
-          "isCorrect": false
-        },
-        {
-          "id": 3,
-          "answer": "Iguana rinoceronte.",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
-      "id": 8,
-      "question": "¿Qué tipo de lagarto puede planear entre los árboles usando pliegues de piel?",
-      "answerId": 3,
-      "options": [
-        {
-          "id": 1,
-          "answer": "Gecko volador.",
-          "isCorrect": false
-        },
-        {
-          "id": 2,
-          "answer": "Camaleón pantera.",
-          "isCorrect": false
-        },
-        {
-          "id": 3,
-          "answer": "Dragón volador (Draco).",
-          "isCorrect": true
-        }
-      ]
-    },
-    {
-      "id": 9,
-      "question": "¿Dónde se encuentra principalmente el dragón de Komodo en estado salvaje?",
-      "answerId": 2,
-      "options": [
-        {
-          "id": 1,
-          "answer": "Australia.",
-          "isCorrect": false
-        },
-        {
-          "id": 2,
-          "answer": "Indonesia.",
-          "isCorrect": true
-        },
-        {
-          "id": 3,
-          "answer": "India.",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
-      "id": 10,
-      "question": "¿Cómo regulan su temperatura corporal los lagartos?",
-      "answerId": 1,
-      "options": [
-        {
-          "id": 1,
-          "answer": "Mediante el entorno, ya que son ectotermos.",
-          "isCorrect": true
-        },
-        {
-          "id": 2,
-          "answer": "Sudando por la piel.",
-          "isCorrect": false
-        },
-        {
-          "id": 3,
-          "answer": "Con glándulas internas como los mamíferos.",
-          "isCorrect": false
-        }
-      ]
-    }
-  ]
-  
+  {
+    "id": 1,
+    "question": "¿Es cierto que el Reglamento de Armas contempla que la reparación de armas de fuego se hará solamente por industrias que las hubiesen fabricado o por armeros autorizados por la Intervención de Armas de la Guardia Civil, con establecimientos abiertos e inscritos en un registro de la citada Intervención?",
+    "answerId": 1,
+    "options": [
+      {
+        "id": 1,
+        "answer": "Cierto.",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "answer": "Falso.",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "answer": "Es indiferente.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "question": "¿Qué documento será aportado al armero, cuando se le entregue un arma de fuego para reparación?",
+    "answerId": 2,
+    "options": [
+      {
+        "id": 1,
+        "answer": "La Licencia o Autorización de armas.",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "answer": "La Guía de Pertenencia o la Guía de Circulación en su caso.",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "answer": "La Guía de Pertenencia y la Licencia de Armas.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "question": "¿Qué destino se le dará a la Guía de pertenencia de un arma de fuego que ha sido reparada?",
+    "answerId": 1,
+    "options": [
+      {
+        "id": 1,
+        "answer": "Se devolverá al/la propietario/a del arma.",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "answer": "Se hará una nueva guía haciendo constar que ha sido reparada.",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "answer": "Se destruirá.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "question": "¿Puede llevar un arma de fuego personalmente el/la titular de la misma para su reparación?",
+    "answerId": 3,
+    "options": [
+      {
+        "id": 1,
+        "answer": "No.",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "answer": "Algunas veces.",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "answer": "Sí.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "question": "Cuando el arma a reparar proceda de una localidad distinta a la de ubicación del establecimiento del armero y no la lleva personalmente su propietario. ¿Qué documento deberá sustituir a la Guía de Pertenencia?",
+    "answerId": 2,
+    "options": [
+      {
+        "id": 1,
+        "answer": "Tan solo una nota con las deficiencias que tiene el arma, si se manda por una agencia de transportes.",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "answer": "Una guía de circulación expedida por la Intervención de Armas de origen o demarcación del/la propietario/a del arma.",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "answer": "Si la lleva personalmente el/la propietario/a, necesita igualmente guía de circulación.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "question": "¿Qué requisito será imprescindible para poder reparar armas de fuego?",
+    "answerId": 2,
+    "options": [
+      {
+        "id": 1,
+        "answer": "Ser un técnico en la reparación de armas y realizarlo de forma habitual.",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "answer": "Tener la condición de armero y establecimiento abierto e inscrito en un registro que llevará la Intervención de Armas de su residencia.",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "answer": "Ser titular de una armería debidamente autorizada por la Autoridad Gubernativa.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "question": "¿Es imprescindible obtener la condición de armero para dedicarse a la reparación de armas de fuego?",
+    "answerId": 2,
+    "options": [
+      {
+        "id": 1,
+        "answer": "Algunas veces.",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "answer": "Sí.",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "answer": "Cuando se trate de armas blancas sí es necesario.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "question": "¿Las industrias que fabrican armas de fuego están autorizadas a reparar las mismas?",
+    "answerId": 2,
+    "options": [
+      {
+        "id": 1,
+        "answer": "No, si la avería es muy grave.",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "answer": "Sí.",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "answer": "Depende del tipo de arma.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "question": "¿Se admitirá un arma de fuego para su reparación si no lleva la Guía de pertenencia?",
+    "answerId": 3,
+    "options": [
+      {
+        "id": 1,
+        "answer": "Sí, cuando esté en muy mal estado.",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "answer": "No, en ningún caso.",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "answer": "Sí, siempre que dicho documento se haya sustituido por una guía de circulación.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "question": "¿Puede el titular de un arma de fuego llevarla personalmente a un establecimiento autorizado para su reparación?",
+    "answerId": 3,
+    "options": [
+      {
+        "id": 1,
+        "answer": "No.",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "answer": "Sí, si va acompañada de la Guía de Pertenencia.",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "answer": "Sí, si va acompañada de la Guía de Pertenencia y Licencia correspondiente.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "question": "La reparación de armas se hará solamente:",
+    "answerId": 3,
+    "options": [
+      {
+        "id": 1,
+        "answer": "Por las industrias que las hubiesen fabricado.",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "answer": "Por armeros/as, que autorizados/as por Intervención de Armas cuenten con establecimiento abierto al público y estén inscritos en el correspondiente registro.",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "answer": "Las dos respuestas anteriores (A y B) son válidas.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "question": "No se admitirá un arma a reparar si no va acompañada de:",
+    "answerId": 3,
+    "options": [
+      {
+        "id": 1,
+        "answer": "Guía de Pertenencia.",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "answer": "Guía de Circulación.",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "answer": "La A) y la B) son correctas.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "question": "¿Dónde quedará la Guía de Pertenencia del arma que se esté reparando?",
+    "answerId": 2,
+    "options": [
+      {
+        "id": 1,
+        "answer": "Será devuelta al propietario del arma una vez se tomen los datos del arma por el armero.",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "answer": "Quedará en poder del/la armero/a mientras dure la reparación del arma.",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "answer": "No es necesario, en este caso, que el arma vaya acompañada por la Guía de Pertenencia.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "question": "¿Cuándo deberá ser entregada a su titular la guía de pertenencia de un arma llevada a reparar a una armería?",
+    "answerId": 3,
+    "options": [
+      {
+        "id": 1,
+        "answer": "Una vez presentada el arma en la armería.",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "answer": "Una vez que el/la Armero/a ha tomado nota de la misma.",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "answer": "En el momento de retirar el arma de la armería.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "question": "Además del arma, ¿qué entregará al armero/al/la titular que le deje su arma para reparar?",
+    "answerId": 1,
+    "options": [
+      {
+        "id": 1,
+        "answer": "La Guía de Pertenencia.",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "answer": "La licencia de armas.",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "answer": "No es preciso que le entregue nada.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "question": "Sin conocimiento de la Intervención de Armas y Explosivos de la Guardia Civil ¿en qué casos está permitida la reparación que suponga modificación de las características, estructura o calibre de un arma de caza?",
+    "answerId": 2,
+    "options": [
+      {
+        "id": 1,
+        "answer": "En cualquier caso.",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "answer": "En ningún caso.",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "answer": "Es indiferente.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "question": "¿Puede llevarse a cabo una reparación que suponga modificación del calibre de un arma?",
+    "answerId": 3,
+    "options": [
+      {
+        "id": 1,
+        "answer": "Sí, si es de caza y esté aprobado por un banco oficial de pruebas y notificado a la Intervención de Armas.",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "answer": "Sí, siempre que las variaciones hayan sido realizadas por los propios fabricantes del arma y hayan entregado esta documentación técnica en la Intervención de Armas de la demarcación del establecimiento.",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "answer": "Son correctas las dos respuestas anteriores.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "question": "¿En qué casos se permitirá que la reparación del arma suponga la modificación sustancial de sus características?",
+    "answerId": 2,
+    "options": [
+      {
+        "id": 1,
+        "answer": "Con conocimiento del Ministerio de Cultura.",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "answer": "Con conocimiento de la Intervención de Armas y aprobación en su caso del Ministerio de Defensa o del Banco Oficial de Pruebas.",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "answer": "Con conocimiento de la Intervención de Armas y Ministerio de Hacienda.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "question": "¿Para modificar el calibre de un arma es preciso la aprobación en su caso del Ministerio de Defensa?",
+    "answerId": 2,
+    "options": [
+      {
+        "id": 1,
+        "answer": "Sí, siempre que se trate de armas de la 1ª y 2ª categoría.",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "answer": "Sí, siempre que se trate de armas de guerra.",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "answer": "Las dos respuestas son correctas.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "question": "¿Puede cambiarse la estructura de un arma?",
+    "answerId": 2,
+    "options": [
+      {
+        "id": 1,
+        "answer": "Sí, siempre que lo haga un armero autorizado y por un motivo razonado.",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "answer": "Sí, previo conocimiento de la Intervención de Armas de la Guardia Civil y aprobación en su caso del Ministerio de Defensa o de un Banco Oficial de Pruebas según el arma de que se trate.",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "answer": "En ningún caso.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "question": "¿Puede repararse un arma de caza, de tal forma que suponga una modificación sustancial de la misma?",
+    "answerId": 1,
+    "options": [
+      {
+        "id": 1,
+        "answer": "Sí, con conocimiento y aprobación de los organismos competentes.",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "answer": "Nunca.",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "answer": "Solo en caso de que la reparación fuera efectuada por un herrero.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "question": "Los/Las fabricantes y comerciantes autorizados/as y sus representantes, ¿a quiénes podrán dejar a prueba las armas de fuego?",
+    "answerId": 2,
+    "options": [
+      {
+        "id": 1,
+        "answer": "A personas mayores de edad.",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "answer": "A personas que posean la correspondiente licencia.",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "answer": "A personas interesadas en la compra de las armas.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "question": "¿Quiénes podrán dejar a prueba las armas de fuego?",
+    "answerId": 3,
+    "options": [
+      {
+        "id": 1,
+        "answer": "Los/Las fabricantes y comerciantes autorizados/as.",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "answer": "Los/Las representantes de los fabricantes y comerciantes autorizados.",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "answer": "Las dos anteriores son correctas.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "question": "Los/Las comerciantes autorizados/as, ¿dejarán a probar un arma de fuego una persona sin Licencia de Armas?",
+    "answerId": 2,
+    "options": [
+      {
+        "id": 1,
+        "answer": "Sí.",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "answer": "No.",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "answer": "Sí, con autorización del/de la Armero/a.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "question": "¿Qué plazo de validez tendrá el documento expedido por un comerciante autorizado para probar un arma de fuego en la misma localidad de residencia del interesado en comprarla?",
+    "answerId": 2,
+    "options": [
+      {
+        "id": 1,
+        "answer": "24 horas.",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "answer": "5 días.",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "answer": "7 días.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "question": "En el documento que expida un fabricante a favor de la persona que esté interesada en adquirir un arma de fuego, ¿podrá omitir el lugar donde se va a efectuar la prueba con dicha arma?",
+    "answerId": 2,
+    "options": [
+      {
+        "id": 1,
+        "answer": "Siempre.",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "answer": "No.",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "answer": "No tiene importancia.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "question": "¿Cualquier titular de la licencia de armas correspondiente y en vigor, podrá probar las armas de fuego que desea adquirir?",
+    "answerId": 1,
+    "options": [
+      {
+        "id": 1,
+        "answer": "Sí.",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "answer": "Nunca.",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "answer": "Con autorización del/de la Subdelegado/a del Gobierno.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "question": "La persona interesada en comprar un arma, ¿puede probarla antes de adquirirla en galería autorizada?",
+    "answerId": 3,
+    "options": [
+      {
+        "id": 1,
+        "answer": "No, en ningún caso.",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "answer": "Sí, pero debe probarla tan solo el viajante.",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "answer": "Sí.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "question": "Una persona que posee licencia de armas correspondiente, ¿puede probar un arma de caza?",
+    "answerId": 1,
+    "options": [
+      {
+        "id": 1,
+        "answer": "Sí, en caso de que se la deje un comerciante autorizado.",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "answer": "Solo en caso de que sea titular de una licencia de caza.",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "answer": "Las dos anteriores son correctas.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "question": "¿Qué será indispensable, para que una persona interesada en adquirir un arma pueda probarla?",
+    "answerId": 3,
+    "options": [
+      {
+        "id": 1,
+        "answer": "Que le acompañe el comercial o fabricante.",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "answer": "Que tenga una autorización del vendedor.",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "answer": "Estar en posesión de la correspondiente licencia.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "question": "¿Qué datos deberá contener el documento, de carácter personal e intransferible, que emite el/la fabricante, comerciante o sus representantes a la persona que vaya a realizar la prueba de un arma de fuego interesada en adquirirla?",
+    "answerId": 2,
+    "options": [
+      {
+        "id": 1,
+        "answer": "Denominación expresa del lugar en donde se deben realizar las pruebas.",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "answer": "Reseña del arma, la licencia y el lugar de las pruebas, plazos de validez y estar visado por la Intervención de Armas.",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "answer": "Que se reseñe un plazo de tres días para realizar la prueba.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "question": "¿Qué carácter tiene el documento que el/la fabricante o comerciante expide a favor de la persona interesada en adquirir un arma de fuego que quiere probar?",
+    "answerId": 3,
+    "options": [
+      {
+        "id": 1,
+        "answer": "Genérico, para cualquier posible adquirente.",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "answer": "Transferible a un tercer posible adquirente, siempre que posea licencia de armas.",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "answer": "Personal e intransferible.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "question": "Un fabricante autorizado ha dejado en prueba un arma a un particular que desea adquirirla y que posee la licencia correspondiente, ¿qué le debe expedir el fabricante?",
+    "answerId": 3,
+    "options": [
+      {
+        "id": 1,
+        "answer": "La guía de pertenencia.",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "answer": "La factura del arma.",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "answer": "Un documento de carácter personal e intransferible visado por la Intervención de Armas y Explosivos.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "question": "¿Por quién será visado el documento de autorización para la prueba de un arma de fuego expedido a favor de un/una particular por un/una fabricante autorizado?",
+    "answerId": 1,
+    "options": [
+      {
+        "id": 1,
+        "answer": "Intervención de Armas.",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "answer": "Comerciante.",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "answer": "No es necesario este requisito.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "question": "El documento de autorización para la prueba de un arma de fuego, a favor de la persona interesada en adquirirla, ¿en qué modelo de documento se formalizará?",
+    "answerId": 3,
+    "options": [
+      {
+        "id": 1,
+        "answer": "En triplicado ejemplar.",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "answer": "Por escrito.",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "answer": "Conforme a un modelo oficial.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "question": "¿Dónde se podrán probar las armas de fuego, además de en los campos de las Federaciones deportivas o en los polígonos, campos o galerías de tiro?",
+    "answerId": 3,
+    "options": [
+      {
+        "id": 1,
+        "answer": "En los terrenos privados.",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "answer": "En los terrenos que cuenten con autorización de la autoridad local.",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "answer": "En los terrenos cinegéticos controlados.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "question": "¿Se podrán probar las armas de fuego en Galerías de Tiro?",
+    "answerId": 3,
+    "options": [
+      {
+        "id": 1,
+        "answer": "No.",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "answer": "No, si no se tiene autorización del/de la Alcalde/SA.",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "answer": "Sí.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "question": "¿Se podrá probar un arma de fuego en la vía pública?",
+    "answerId": 3,
+    "options": [
+      {
+        "id": 1,
+        "answer": "Solo en caso de que no haya personas en la misma.",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "answer": "Sí es de noche y en descampado.",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "answer": "Nunca.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "question": "Con motivo del fallecimiento de una persona que posea armas de fuego, los/las herederos/ras o albaceas, ¿Cuándo deberán depositar las armas en la Intervención de Armas?",
+    "answerId": 2,
+    "options": [
+      {
+        "id": 1,
+        "answer": "Al día siguiente del fallecimiento.",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "answer": "Tan pronto como tengan conocimiento de la obligación de hacerlo y en cualquier caso dentro de los 6 meses siguientes al fallecimiento.",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "answer": "Será determinado por el/la Interventor/a de Armas y Explosivos de la residencia del fallecido/a.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "question": "¿Es cierto que el Reglamento de Armas dispone que al cesar en la habilitación para la tenencia legal de las armas, el/la interesado/a, deberá depositarlas inmediatamente?",
+    "answerId": 1,
+    "options": [
+      {
+        "id": 1,
+        "answer": "Cierto.",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "answer": "Falso.",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "answer": "Solo en caso de armas de caza.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "question": "Al cesar en la habilitación para la tenencia legal de las armas ¿En qué momento el/la interesado/a deberá depositar las armas con las correspondientes guías de pertenencia?",
+    "answerId": 2,
+    "options": [
+      {
+        "id": 1,
+        "answer": "Dentro del plazo de 10 días desde que cesó en dicha habilitación.",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "answer": "Inmediatamente.",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "answer": "Quedará exento del depósito si comunica tal vicisitud a la Intervención de Armas y adopta las suficientes medidas de seguridad para evitar su pérdida o sustracción.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "question": "No pasar dos revistas consecutivas de un arma será motivo de retirada de la guía de pertenencia ¿qué debe hacerse con el arma?",
+    "answerId": 2,
+    "options": [
+      {
+        "id": 1,
+        "answer": "Guardarla con las suficientes medidas de seguridad.",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "answer": "Depositarla.",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "answer": "Llevar la guía de pertenencia a la Intervención de Armas.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "question": "¿Qué tiempo permanecerán las armas que se depositen en las Intervenciones de Armas a disposición de los/las herederos/as, como consecuencia del fallecimiento de sus titulares?",
+    "answerId": 2,
+    "options": [
+      {
+        "id": 1,
+        "answer": "6 meses.",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "answer": "1 año.",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "answer": "2 años.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "question": "¿Qué documento acompañará a las armas que se depositen en las Intervenciones de Armas, como consecuencia del fallecimiento de sus titulares?",
+    "answerId": 2,
+    "options": [
+      {
+        "id": 1,
+        "answer": "La Licencia de armas del/de la fallecido/a y el certificado de defunción.",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "answer": "La guía de pertenencia.",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "answer": "La guía de pertenencia, acompañada de certificado de defunción.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "question": "En caso de caducidad de la licencia de armas, ¿qué tiempo tendrá para depositarlas?",
+    "answerId": 3,
+    "options": [
+      {
+        "id": 1,
+        "answer": "3 meses.",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "answer": "1 año.",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "answer": "Inmediatamente.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "question": "¿Qué documentos acompañarán a las armas de fuego que vayan a ser depositadas?",
+    "answerId": 1,
+    "options": [
+      {
+        "id": 1,
+        "answer": "Las Guías de Pertenencia.",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "answer": "La Licencia de Armas.",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "answer": "Las Tarjetas de Armas.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "question": "¿Qué deberá depositar el/la titular de armas de fuego que extraviase la licencia de armas?",
+    "answerId": 1,
+    "options": [
+      {
+        "id": 1,
+        "answer": "Las Armas y las Guías de Pertenencia.",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "answer": "Las Guías.",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "answer": "No depositará ningún arma.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "question": "¿Qué deberá depositar el/la titular de armas de fuego que extraviase las Guías de Pertenencia?",
+    "answerId": 2,
+    "options": [
+      {
+        "id": 1,
+        "answer": "La Licencia de Armas.",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "answer": "Las Armas que amparan dichas Guías.",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "answer": "Licencia de caza.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "question": "¿Es cierto que el/la titular de un arma de fuego no puede depositarla en la Intervención de Armas y Explosivos para ser subastada?",
+    "answerId": 1,
+    "options": [
+      {
+        "id": 1,
+        "answer": "Cierto.",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "answer": "Falso.",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "answer": "Depende de si el arma es de caza o no.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "question": "¿Puede el/la titular de un arma de fuego depositarla en la Intervención de Armas y Explosivos para ser subastada?",
+    "answerId": 1,
+    "options": [
+      {
+        "id": 1,
+        "answer": "No.",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "answer": "A veces.",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "answer": "Sí.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "question": "¿Puede el/la titular de un arma de fuego depositarla en la Intervención de Armas y Explosivos para su reducción a chatarra?",
+    "answerId": 3,
+    "options": [
+      {
+        "id": 1,
+        "answer": "No; el destino reglamentario de reducción a chatarra es solo en caso de armas depositadas que carezcan de punzones necesarios o sean prohibidas.",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "answer": "A veces.",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "answer": "Sí.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "question": "¿Cuándo procede el depósito de las armas y la retirada y anulación de la guía de pertenencia?",
+    "answerId": 2,
+    "options": [
+      {
+        "id": 1,
+        "answer": "Al no pasar la revista, en una ocasión.",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "answer": "Al no pasar dos revistas consecutivas.",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "answer": "En ningún caso procede el depósito de las armas.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "question": "En caso de fallecimiento del/de la titular de un arma, ¿qué deberán hacer los familiares con las armas del fallecido?",
+    "answerId": 2,
+    "options": [
+      {
+        "id": 1,
+        "answer": "Pueden hacer uso de las mismas sin ningún requisito previo.",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "answer": "Depositarlas en la Intervención de Armas.",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "answer": "Pasarán a propiedad del hijo mayor de la familia.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "question": "¿Qué plazo tienen los herederos/as de un arma, depositada en la Intervención de Armas y Explosivos por fallecimiento del/de la titular, para enajenarla?",
+    "answerId": 2,
+    "options": [
+      {
+        "id": 1,
+        "answer": "Una semana.",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "answer": "Un año.",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "answer": "No hay plazo establecido.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "question": "En caso de anulación de la guía de pertenencia de un arma ¿qué debe hacerse con el arma?",
+    "answerId": 1,
+    "options": [
+      {
+        "id": 1,
+        "answer": "Depositarla inmediatamente en la Intervención de Armas.",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "answer": "Esperar a que me devuelvan la guía.",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "answer": "Nada.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "question": "Señale el plazo de que disponen los/las herederos/as del/de la titular de una escopeta para depositarla en la Intervención de Armas y Explosivos en caso de fallecimiento del/de la titular:",
+    "answerId": 3,
+    "options": [
+      {
+        "id": 1,
+        "answer": "Tan pronto como tenga conocimiento de la obligación de hacerlo.",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "answer": "Dentro de los seis meses siguientes al fallecimiento.",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "answer": "Correctas A) y B).",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "question": "Señale el plazo de que disponen los/las herederos/as del/de la titular de una escopeta para depositarla en la Intervención de Armas y Explosivos en caso de fallecimiento del/de la titular:",
+    "answerId": 1,
+    "options": [
+      {
+        "id": 1,
+        "answer": "Dentro de los seis meses siguientes al fallecimiento.",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "answer": "Al año del fallecimiento.",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "answer": "Las dos anteriores son correctas.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "question": "Una escopeta depositada por infracción a la Ley de Caza, ¿podrá ser recuperada por su dueño/a?",
+    "answerId": 1,
+    "options": [
+      {
+        "id": 1,
+        "answer": "Sí.",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "answer": "No.",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "answer": "Algunas veces.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "question": "¿Qué destino se le dará a las armas depositadas por infracción a la Ley de Caza, cuando los/las titulares de las mismas no deseen recuperarlas?",
+    "answerId": 3,
+    "options": [
+      {
+        "id": 1,
+        "answer": "Venderlas.",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "answer": "Depositadas hasta que la Autoridad Judicial disponga de ellas.",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "answer": "Destruirlas.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "question": "¿Qué destino recibirán las armas que se depositen en las Intervenciones de Armas a disposición de los/las herederos/as, como consecuencia del fallecimiento de sus titulares y haya transcurrido el plazo reglamentario, sin que las armas hayan sido enajenadas o recuperadas?",
+    "answerId": 2,
+    "options": [
+      {
+        "id": 1,
+        "answer": "Se reducirán a chatarra, si no se ha pedido expresamente que se subasten.",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "answer": "Se destruirán.",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "answer": "Se enajenarán a los armeros/as que lo soliciten.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "question": "¿Qué fin se le dará a un arma depositada en la Intervención de Armas y que transcurridos los plazos reglamentarios no ha sido transferida?",
+    "answerId": 2,
+    "options": [
+      {
+        "id": 1,
+        "answer": "Se entregará al museo de armas del Ejército.",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "answer": "Se destruirán.",
+        "isCorrect": true
+      },
+      {
+        "id": 3,
+        "answer": "Se alquilará a persona en posesión de licencia de armas.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "question": "En las importaciones, las armas llegadas a un aeropuerto que no fuesen retiradas por sus destinatarios/as después de despachadas por las aduanas, ¿cuánto tiempo estarán depositadas como máximo, a disposición del interesado/a?",
+    "answerId": 1,
+    "options": [
+      {
+        "id": 1,
+        "answer": "Durante un año.",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "answer": "Durante seis meses.",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "answer": "Durante cinco meses.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "question": "En las importaciones, las armas llegadas a un aeropuerto que no fuesen retiradas por sus destinatarios/as después de despachadas por las aduanas, ¿qué fin le será dado a dichas armas?",
+    "answerId": 3,
+    "options": [
+      {
+        "id": 1,
+        "answer": "Se venderán.",
+        "isCorrect": false
+      },
+      {
+        "id": 2,
+        "answer": "Serán devueltas al país de origen.",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "answer": "Serán depositadas en la Intervención de Armas y Explosivos.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "question": "¿Qué destino se dará a un arma que tiene un valor acreditado como patrimonio histórico en el caso de que haya transcurrido un año depositada?",
+    "answerId": 1,
+    "options": [
+      {
+        "id": 1,
+        "answer": "Se enajenarán en pública subasta.",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "answer": "Se le devolverá a su legítimo/a dueño/a.",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "answer": "Lo que dictamine la Autoridad Judicial.",
+        "isCorrect": false
+      }
+    ]
+  }
+]
