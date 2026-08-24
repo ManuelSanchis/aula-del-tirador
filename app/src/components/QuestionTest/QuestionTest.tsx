@@ -1,9 +1,9 @@
 import { RotateCw } from 'lucide-react';
 import { useEffect, useRef, useState } from 'react';
 
-import { Question } from '@/components/Question';
-import { Score } from '@/components/Score';
-import { Timer } from '@/components/Timer';
+import { Question } from '@/components/Question/Question';
+import { Score } from '@/components/Score/Score';
+import { Timer } from '@/components/Timer/Timer';
 import type { QuestionModel } from '@/models/question.model';
 import { calculateScore } from '@/utils/calculateScore';
 

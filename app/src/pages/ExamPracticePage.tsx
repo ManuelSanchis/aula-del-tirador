@@ -1,7 +1,7 @@
 import { LoaderCircle } from 'lucide-react';
 import { useEffect, useState } from 'react';
 
-import { QuestionTest } from '@/components/QuestionTest';
+import { QuestionTest } from '@/components/QuestionTest/QuestionTest';
 import { EXAM_PASSING_SCORE, EXAM_TIME_LIMIT_MINUTES } from '@/config/exam.config';
 import type { QuestionModel } from '@/models/question.model';
 import { loadExamQuestions } from '@/services/exam.service';
