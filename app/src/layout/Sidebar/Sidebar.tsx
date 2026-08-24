@@ -1,7 +1,7 @@
 import clsx from 'clsx';
 import { PanelLeftClose, PanelLeftOpen, Target } from 'lucide-react';
 
-import { SidebarNavItem } from '@/components/SidebarNavItem';
+import { SidebarNavItem } from '@/components/SidebarNavItem/SidebarNavItem';
 import { SIDEBAR_NAV_ITEM } from '@/config/sidebarNavItem.config';
 
 import styles from './Sidebar.module.css';

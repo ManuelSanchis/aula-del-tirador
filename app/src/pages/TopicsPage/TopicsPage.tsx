@@ -1,4 +1,4 @@
-import { ActionCard } from '@/components/ActionCard';
+import { ActionCard } from '@/components/ActionCard/ActionCard';
 import { TOPIC_CARDS } from '@/config/topicCards.config';
 
 import styles from './TopicsPage.module.css';

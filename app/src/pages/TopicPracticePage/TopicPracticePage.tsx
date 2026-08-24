@@ -2,7 +2,7 @@ import { LoaderCircle } from 'lucide-react';
 import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 
-import { QuestionTest } from '@/components/QuestionTest';
+import { QuestionTest } from '@/components/QuestionTest/QuestionTest';
 import type { QuestionModel } from '@/models/question.model';
 import { fetchQuestionsFromTopic } from '@/services/question.service';
 

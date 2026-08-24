@@ -1,4 +1,4 @@
-import { ActionCard } from '@/components/ActionCard';
+import { ActionCard } from '@/components/ActionCard/ActionCard';
 import { HOME_CARDS } from '@/config/homeCards.config';
 
 import styles from './HomePage.module.css';
