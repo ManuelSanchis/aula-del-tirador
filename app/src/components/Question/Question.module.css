@@ -70,11 +70,6 @@
     box-shadow var(--transition-fast);
 }
 
-.option:hover {
-  background-color: var(--color-surface-secondary);
-  border-color: var(--color-border-strong);
-}
-
 .input {
   position: absolute;
 
@@ -98,9 +93,9 @@
 }
 
 .input:checked + .customRadio {
-  background-color: var(--color-primary);
-  border: 0.3125rem solid var(--color-primary-soft);
-  outline: 2px solid var(--color-primary);
+  background-color: var(--color-neutral);
+  border: 0.3125rem solid var(--color-neutral-soft);
+  outline: 2px solid var(--color-border-strong);
 }
 
 .input:focus-visible + .customRadio {
@@ -121,8 +116,8 @@
 }
 
 .selected {
-  background-color: var(--color-primary-soft);
-  border-color: var(--color-primary-border);
+  background-color: var(--color-neutral-soft);
+  border-color: var(--color-border-strong);
 }
 
 .correct {
@@ -130,6 +125,12 @@
 
   background-color: var(--color-success-soft);
   border-color: var(--color-success-border);
+}
+
+.correct .customRadio {
+  background-color: var(--color-success);
+  border: 0.3125rem solid var(--color-success-soft);
+  outline: 2px solid var(--color-success);
 }
 
 .correct .statusIcon {
@@ -143,6 +144,18 @@
   border-color: var(--color-error-border);
 }
 
+.incorrect .customRadio {
+  background-color: var(--color-error);
+  border: 0.3125rem solid var(--color-error-soft);
+  outline: 2px solid var(--color-error);
+}
+
+.incorrect .input:checked + .customRadio {
+  background-color: var(--color-error);
+  border: 0.3125rem solid var(--color-error-soft);
+  outline: 2px solid var(--color-error);
+}
+
 .incorrect .statusIcon {
   color: var(--color-error);
 }
@@ -151,8 +164,15 @@
   cursor: default;
 }
 
-.disabled:hover {
-  border-color: var(--color-border);
+@media (hover: hover) and (pointer: fine) {
+  .option:hover {
+    background-color: var(--color-surface-secondary);
+    border-color: var(--color-border-strong);
+  }
+
+  .disabled:hover {
+    border-color: var(--color-border);
+  }
 }
 
 @media (width <= 768px) {

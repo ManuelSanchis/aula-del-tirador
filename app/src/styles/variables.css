@@ -67,6 +67,10 @@
   --color-primary-focus: rgb(22 101 52 / 20%);
   --color-primary-border: var(--green-500);
 
+  --color-neutral: var(--gray-500);
+  --color-neutral-soft: var(--gray-50);
+  --color-neutral-border: var(--gray-500);
+
   --color-success: var(--green-800);
   --color-success-soft: var(--green-50);
   --color-success-border: var(--green-500);
@@ -78,7 +82,7 @@
   --color-error-border: var(--red-500);
 
   --color-border: var(--gray-200);
-  --color-border-strong: var(--gray-300);
+  --color-border-strong: var(--gray-500);
 
   /* Shadows */
 
