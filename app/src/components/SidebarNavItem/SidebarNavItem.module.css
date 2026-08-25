@@ -22,12 +22,6 @@
     color var(--transition-fast);
 }
 
-.link:hover {
-  color: var(--color-text);
-
-  background-color: var(--color-surface-secondary);
-}
-
 .active {
   color: var(--color-primary);
 
@@ -69,6 +63,14 @@
 
 .collapsed .label {
   display: none;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .link:hover {
+    color: var(--color-text);
+
+    background-color: var(--color-surface-secondary);
+  }
 }
 
 @media (width <= 768px) {
