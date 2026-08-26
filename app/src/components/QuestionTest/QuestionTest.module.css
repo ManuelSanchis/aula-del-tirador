@@ -1,0 +1,138 @@
+.test {
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+  gap: var(--spacing-lg);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  gap: var(--spacing-md);
+  padding: var(--spacing-md);
+
+  background-color: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-sm);
+}
+
+.progress {
+  display: flex;
+  flex-direction: column;
+
+  gap: var(--spacing-xs);
+}
+
+.progressLabel {
+  font-size: var(--font-size-sm);
+  font-weight: 500;
+
+  color: var(--color-text-muted);
+}
+
+.progressValue {
+  font-size: var(--font-size-base);
+  font-weight: 600;
+}
+
+.questions {
+  display: flex;
+  flex-direction: column;
+
+  gap: var(--spacing-md);
+}
+
+.actions {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.finishButton,
+.restartButton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  min-width: 12rem;
+  gap: var(--spacing-xs);
+  padding: var(--spacing-sm) var(--spacing-lg);
+
+  font-weight: 600;
+
+  color: var(--color-surface);
+  background-color: var(--color-primary);
+  border-radius: var(--radius-md);
+
+  cursor: pointer;
+
+  transition:
+    background-color var(--transition-fast),
+    transform var(--transition-fast);
+}
+
+.finishButton:hover,
+.restartButton:hover {
+  background-color: var(--color-primary-hover);
+}
+
+.finishButton:active,
+.restartButton:active {
+  background-color: var(--color-primary-active);
+
+  transform: translateY(1px);
+}
+
+.finishButton:focus-visible,
+.restartButton:focus-visible {
+  outline: 3px solid var(--color-primary-focus);
+  outline-offset: 3px;
+}
+
+.buttonIcon {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
+@media (width <= 768px) {
+  .test {
+    gap: var(--spacing-md);
+  }
+
+  .header {
+    align-items: stretch;
+
+    padding: var(--spacing-sm);
+    gap: var(--spacing-sm);
+  }
+
+  .progress {
+    gap: var(--spacing-2xs);
+  }
+
+  .progressLabel {
+    font-size: var(--font-size-xs);
+  }
+
+  .progressValue {
+    font-size: var(--font-size-sm);
+  }
+
+  .questions {
+    gap: var(--spacing-sm);
+  }
+
+  .actions {
+    justify-content: stretch;
+  }
+
+  .finishButton,
+  .restartButton {
+    width: 100%;
+    min-width: 0;
+    padding: var(--spacing-sm) var(--spacing-md);
+  }
+}
